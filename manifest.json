@@ -1,0 +1,20 @@
+{
+   "author": "Manvel",
+   "manifest_version": 3,
+   "name": "Minimized window reproduction",
+   "description": "MacOs full-screen minimized window creation extension",
+   "background": {
+      "service_worker": "js/background.js"
+    },
+   "action": {
+      "default_icon": "images/icon/128x128.png"
+   },
+   "icons": {
+      "128": "images/icon/128x128.png",
+      "48": "images/icon/48x48.png",
+      "16": "images/icon/16x16.png"
+   },
+   "permissions": ["tabs"],
+   "host_permissions": ["*://*/*", "<all_urls>"],
+   "version": "0.1"
+}
